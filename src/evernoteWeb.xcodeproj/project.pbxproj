@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E65EAFEC1CBEC00300AB0483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EAFEB1CBEC00300AB0483 /* AppDelegate.swift */; };
+		E65EAFEE1CBEC00300AB0483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EAFED1CBEC00300AB0483 /* ViewController.swift */; };
+		E65EAFF01CBEC00300AB0483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65EAFEF1CBEC00300AB0483 /* Images.xcassets */; };
+		E65EAFF31CBEC00400AB0483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65EAFF11CBEC00400AB0483 /* Main.storyboard */; };
+		E65EAFFF1CBEC00400AB0483 /* evernoteWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EAFFE1CBEC00400AB0483 /* evernoteWebTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E65EAFF91CBEC00400AB0483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E65EAFDE1CBEC00300AB0483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65EAFE51CBEC00300AB0483;
+			remoteInfo = evernoteWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E65EAFE61CBEC00300AB0483 /* evernoteWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evernoteWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65EAFEA1CBEC00300AB0483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65EAFEB1CBEC00300AB0483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E65EAFED1CBEC00300AB0483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E65EAFEF1CBEC00300AB0483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E65EAFF21CBEC00400AB0483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E65EAFF81CBEC00400AB0483 /* evernoteWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evernoteWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65EAFFD1CBEC00400AB0483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65EAFFE1CBEC00400AB0483 /* evernoteWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evernoteWebTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E65EAFE31CBEC00300AB0483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65EAFF51CBEC00400AB0483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E65EAFDD1CBEC00300AB0483 = {
+			isa = PBXGroup;
+			children = (
+				E65EAFE81CBEC00300AB0483 /* evernoteWeb */,
+				E65EAFFB1CBEC00400AB0483 /* evernoteWebTests */,
+				E65EAFE71CBEC00300AB0483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E65EAFE71CBEC00300AB0483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E65EAFE61CBEC00300AB0483 /* evernoteWeb.app */,
+				E65EAFF81CBEC00400AB0483 /* evernoteWebTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E65EAFE81CBEC00300AB0483 /* evernoteWeb */ = {
+			isa = PBXGroup;
+			children = (
+				E65EAFEB1CBEC00300AB0483 /* AppDelegate.swift */,
+				E65EAFED1CBEC00300AB0483 /* ViewController.swift */,
+				E65EAFEF1CBEC00300AB0483 /* Images.xcassets */,
+				E65EAFF11CBEC00400AB0483 /* Main.storyboard */,
+				E65EAFE91CBEC00300AB0483 /* Supporting Files */,
+			);
+			path = evernoteWeb;
+			sourceTree = "<group>";
+		};
+		E65EAFE91CBEC00300AB0483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65EAFEA1CBEC00300AB0483 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E65EAFFB1CBEC00400AB0483 /* evernoteWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				E65EAFFE1CBEC00400AB0483 /* evernoteWebTests.swift */,
+				E65EAFFC1CBEC00400AB0483 /* Supporting Files */,
+			);
+			path = evernoteWebTests;
+			sourceTree = "<group>";
+		};
+		E65EAFFC1CBEC00400AB0483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65EAFFD1CBEC00400AB0483 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E65EAFE51CBEC00300AB0483 /* evernoteWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65EB0021CBEC00400AB0483 /* Build configuration list for PBXNativeTarget "evernoteWeb" */;
+			buildPhases = (
+				E65EAFE21CBEC00300AB0483 /* Sources */,
+				E65EAFE31CBEC00300AB0483 /* Frameworks */,
+				E65EAFE41CBEC00300AB0483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = evernoteWeb;
+			productName = evernoteWeb;
+			productReference = E65EAFE61CBEC00300AB0483 /* evernoteWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E65EAFF71CBEC00400AB0483 /* evernoteWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65EB0051CBEC00400AB0483 /* Build configuration list for PBXNativeTarget "evernoteWebTests" */;
+			buildPhases = (
+				E65EAFF41CBEC00400AB0483 /* Sources */,
+				E65EAFF51CBEC00400AB0483 /* Frameworks */,
+				E65EAFF61CBEC00400AB0483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E65EAFFA1CBEC00400AB0483 /* PBXTargetDependency */,
+			);
+			name = evernoteWebTests;
+			productName = evernoteWebTests;
+			productReference = E65EAFF81CBEC00400AB0483 /* evernoteWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E65EAFDE1CBEC00300AB0483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Raphael Jordan";
+				TargetAttributes = {
+					E65EAFE51CBEC00300AB0483 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E65EAFF71CBEC00400AB0483 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E65EAFE51CBEC00300AB0483;
+					};
+				};
+			};
+			buildConfigurationList = E65EAFE11CBEC00300AB0483 /* Build configuration list for PBXProject "evernoteWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E65EAFDD1CBEC00300AB0483;
+			productRefGroup = E65EAFE71CBEC00300AB0483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E65EAFE51CBEC00300AB0483 /* evernoteWeb */,
+				E65EAFF71CBEC00400AB0483 /* evernoteWebTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E65EAFE41CBEC00300AB0483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65EAFF01CBEC00300AB0483 /* Images.xcassets in Resources */,
+				E65EAFF31CBEC00400AB0483 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65EAFF61CBEC00400AB0483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E65EAFE21CBEC00300AB0483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65EAFEE1CBEC00300AB0483 /* ViewController.swift in Sources */,
+				E65EAFEC1CBEC00300AB0483 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65EAFF41CBEC00400AB0483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65EAFFF1CBEC00400AB0483 /* evernoteWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E65EAFFA1CBEC00400AB0483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E65EAFE51CBEC00300AB0483 /* evernoteWeb */;
+			targetProxy = E65EAFF91CBEC00400AB0483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E65EAFF11CBEC00400AB0483 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65EAFF21CBEC00400AB0483 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E65EB0001CBEC00400AB0483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E65EB0011CBEC00400AB0483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E65EB0031CBEC00400AB0483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = evernoteWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E65EB0041CBEC00400AB0483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = evernoteWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E65EB0061CBEC00400AB0483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = evernoteWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evernoteWeb.app/Contents/MacOS/evernoteWeb";
+			};
+			name = Debug;
+		};
+		E65EB0071CBEC00400AB0483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = evernoteWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evernoteWeb.app/Contents/MacOS/evernoteWeb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E65EAFE11CBEC00300AB0483 /* Build configuration list for PBXProject "evernoteWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65EB0001CBEC00400AB0483 /* Debug */,
+				E65EB0011CBEC00400AB0483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65EB0021CBEC00400AB0483 /* Build configuration list for PBXNativeTarget "evernoteWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65EB0031CBEC00400AB0483 /* Debug */,
+				E65EB0041CBEC00400AB0483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65EB0051CBEC00400AB0483 /* Build configuration list for PBXNativeTarget "evernoteWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65EB0061CBEC00400AB0483 /* Debug */,
+				E65EB0071CBEC00400AB0483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E65EAFDE1CBEC00300AB0483 /* Project object */;
+}
