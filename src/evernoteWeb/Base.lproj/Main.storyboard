@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="7706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="10116"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -677,28 +676,23 @@
                         <subviews>
                             <webView horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qh7-vx-Y31">
                                 <rect key="frame" x="0.0" y="0.0" width="1231" height="800"/>
-                                <animations/>
                                 <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
                                     <nil key="identifier"/>
                                 </webPreferences>
                             </webView>
-                            <progressIndicator hidden="YES" wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-to-kbS">
-                                <rect key="frame" x="607" y="392" width="16" height="16"/>
-                                <animations/>
+                            <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="DFo-rt-e1a">
+                                <rect key="frame" x="7" y="778" width="16" height="16"/>
                             </progressIndicator>
                         </subviews>
                         <constraints>
                             <constraint firstItem="qh7-vx-Y31" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="1fM-Ek-Lfy"/>
-                            <constraint firstItem="qh7-vx-Y31" firstAttribute="centerX" secondItem="dFt-to-kbS" secondAttribute="centerX" id="CaY-1O-KTh"/>
                             <constraint firstAttribute="bottom" secondItem="qh7-vx-Y31" secondAttribute="bottom" id="NZ2-7V-nLd"/>
                             <constraint firstItem="qh7-vx-Y31" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="SlO-1C-4uS"/>
                             <constraint firstAttribute="trailing" secondItem="qh7-vx-Y31" secondAttribute="trailing" id="iTf-iv-RjZ"/>
-                            <constraint firstItem="qh7-vx-Y31" firstAttribute="centerY" secondItem="dFt-to-kbS" secondAttribute="centerY" id="wBX-Ef-GEZ"/>
                         </constraints>
-                        <animations/>
                     </view>
                     <connections>
-                        <outlet property="preload" destination="dFt-to-kbS" id="PYO-RU-Lcq"/>
+                        <outlet property="preload" destination="DFo-rt-e1a" id="eBh-Ck-UOD"/>
                         <outlet property="webView" destination="qh7-vx-Y31" id="vY7-P3-NU6"/>
                     </connections>
                 </viewController>

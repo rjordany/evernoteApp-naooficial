@@ -10,13 +10,13 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		f0k96gjpLHl7FhVuxzyfQMd0Oxk=
+		rcxU5cOD0I1L7ovsePrOUYsfVBo=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aafLzhbvFeyAZFt4q2GdIvn42mQ=
+			30ftxdCf7Vi9jQzM3nMQTXUyIrg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -25,7 +25,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dqelFoeP837tZpReIcC4ctSkIAM=
+			lpc8vi5J8wbr0SI/lsB8anXKmqw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -34,7 +34,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AVyKAT+hpX6MYCDPoylhc5C5imE=
+			+QParOrrf1utvwlE7E5IqLEa0qY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LYRa1AGUkA8BULZyosVEkga/4Sw=
+			QXrlIMnMQ4IUqa3t1KFOsgeqhbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -55,82 +55,91 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zTbzrgCBfi6vREcLRzA6FczSaNs=
+			xYk4Mpq059GHrsGroZCmxHDksu8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"cd36f3ae00817e2eaf44470b47303a15ccd268db"</string>
+			<string>cdhash H"c58938329ab4e7d187aec1aba190a6c470e4b2ef"</string>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gWbLwr9NE6KXkXwML8CHL+PdW1A=
+			LTEvMR/YNSmp024HNau8YA23PAc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"8166cbc2bf4d13a297917c0c2fc0872fe3dd5b50"</string>
+			<string>cdhash H"2d312f311fd83529a9d36e0735abbc600db73c07"</string>
+		</dict>
+		<key>Frameworks/libswiftCoreData.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			DWql5iaqKaHfxmi8+AOPxj2Nc94=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"0d6aa5e626aa29a1dfc668bcf8038fc63d8d73de"</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+JvYt0rDS2oauN4ykRYV7nzLESA=
+			76tA94kUURi22L7wp4zVDMfOYyo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"f89bd8b74ac34b6a1ab8de32911615ee7ccb1120"</string>
+			<string>cdhash H"efab40f789145118b6d8bef0a78cd50cc7ce632a"</string>
+		</dict>
+		<key>Frameworks/libswiftCoreImage.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			H4t8cKoTO2vHS6RVYbEEEI/Ppw8=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"1f8b7c70aa133b6bc74ba45561b104108fcfa70f"</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			z+ck3TiWIUXjAki8YY1SAl6cJr0=
+			B8/WrL1JdU1OBOOC3roXMubKFjg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"cfe724dd38962145e30248bc618d52025e9c26bd"</string>
+			<string>cdhash H"07cfd6acbd49754d4e04e382deba1732e6ca1638"</string>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			1/uEmhHcyyqJc+bzROJz8UcOIRM=
+			1odDetysNe//vEdfZ+oRHM4/bRM=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d7fb849a11dccb2a8973e6f344e273f1470e2113"</string>
+			<string>cdhash H"d687437adcac35efffbc475f67ea111cce3f6d13"</string>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			AbdigrpRjzBUAV7PQXm8bafciT0=
+			CRgCdl91O+oxk93THsaVihVByEs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"01b76282ba518f3054015ecf4179bc6da7dc893d"</string>
+			<string>cdhash H"091802765f753bea3193ddd31ec6958a1541c84b"</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			KT5Yyacl2MUH68+vkYQ3Lnzn7y8=
+			ccdHGt6yaKdeyIkoHSwFjKHQm6s=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"293e58c9a725d8c507ebcfaf9184372e7ce7ef2f"</string>
+			<string>cdhash H"71c7471adeb268a75ec889281d2c058ca1d09bab"</string>
 		</dict>
-		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<key>Frameworks/libswiftWebKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			l9U2wR8srVJWuWFeYm4xy4MsCNQ=
+			Nq8LMLsoX8SJ2MIoN2PKmtXutOM=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"97d536c11f2cad5256b9615e626e31cb832c08d4"</string>
-		</dict>
-		<key>Frameworks/libswiftSecurity.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			WVqForz3GxPTW03MCeFTr67JIhg=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"595a85a2bcf71b13d35b4dcc09e153afaec92218"</string>
+			<string>cdhash H"36af0b30bb285fc489d8c2283763ca9ad5eeb4e3"</string>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
@@ -138,13 +147,13 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		f0k96gjpLHl7FhVuxzyfQMd0Oxk=
+		rcxU5cOD0I1L7ovsePrOUYsfVBo=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aafLzhbvFeyAZFt4q2GdIvn42mQ=
+			30ftxdCf7Vi9jQzM3nMQTXUyIrg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -153,7 +162,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dqelFoeP837tZpReIcC4ctSkIAM=
+			lpc8vi5J8wbr0SI/lsB8anXKmqw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -162,7 +171,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AVyKAT+hpX6MYCDPoylhc5C5imE=
+			+QParOrrf1utvwlE7E5IqLEa0qY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -171,7 +180,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LYRa1AGUkA8BULZyosVEkga/4Sw=
+			QXrlIMnMQ4IUqa3t1KFOsgeqhbc=
 			</data>
 			<key>optional</key>
 			<true/>
